@@ -33,7 +33,7 @@
             "variant_label"
         ],
         "version_metadata": {
-            "CV_collection_modified": "April 29, 2021, 18:31:48 UTC",
+            "CV_collection_modified": "May 04, 2021, 14:36:46 UTC",
             "CV_collection_version": "0.9.0",
             "author": "David Plummer <david.plummer@canada.ca>"
         },
@@ -43,6 +43,7 @@
         "institution_id": {
             "CCCma": "Canadian Centre for Climate Modelling and Analysis, Environment and Climate Change Canada, Victoria, BC V8P 5C2, Canada",
             "CNRM-CERFACS": "CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31057, France)",
+            "CSIRO-ARCCSS": "CSIRO (Commonwealth Scientific and Industrial Research Organisation, Aspendale, Victoria 3195, Australia), ARCCSS (Australian Research Council Centre of Excellence for Climate System Science)",
             "ETH-PMOD": "IAC ETH, Zurich and PMOD/WRC, Davos, Switzerland",
             "MESSy-Consortium": "The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany",
             "NCAR": "National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA",
@@ -50,6 +51,13 @@
             "NIES": "National Institute for Environmental Studies, Ibaraki 305-8506, Japan"
         },
         "source_id": {
+            "ACCESS-CM2-Chem": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "CSIRO-ARCCSS",
+                "source_id": "ACCESS-CM2-Chem",
+                "source": "ACCESS-CM2-Chem (2020): aerosol: UKCA-GLOMAP-mode atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km) atmosChem: UKCA CheST land: CABLE2.5 landIce: none ocean: ACCESS-OM2 (GFDL-MOM5, tripolar primarily 1deg; 360 x 300 longitude/latitude; 50 levels; top grid cell 0-10 m) ocnBgchem: none seaIce: CICE5.1.2 (same grid as ocean)"
+            },
             "CCSRNIES-MIROC32": {
                 "activity_participation": "CCMI2022",
                 "cohort": "Registered",

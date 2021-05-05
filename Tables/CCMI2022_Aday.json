@@ -4,7 +4,7 @@
         "cmor_version": "3.5",
         "table_id": "Table Aday",
         "realm": "atmos",
-        "table_date": "January 15, 2021",
+        "table_date": "March 26, 2021",
         "missing_value": "1e20",
         "int_missing_value": "-999",
         "product": "model-output",
@@ -511,7 +511,7 @@
             "valid_max": ""
         },
         "tasmin": {
-            "frequency": "dayPt",
+            "frequency": "day",
             "modeling_realm": "atmos",
             "standard_name": "air_temperature",
             "units": "K",
@@ -519,7 +519,7 @@
             "cell_measures": "area: areacella",
             "long_name": "Daily Minimum Near-Surface Air Temperature",
             "comment": "minimum near-surface (usually, 2 meter) air temperature (add cell_method attribute 'time: minimum')",
-            "dimensions": "longitude latitude time1 height2m",
+            "dimensions": "longitude latitude time height2m",
             "out_name": "tasmin",
             "type": "real",
             "positive": "",
@@ -527,7 +527,7 @@
             "valid_max": ""
         },
         "tasmax": {
-            "frequency": "dayPt",
+            "frequency": "day",
             "modeling_realm": "atmos",
             "standard_name": "air_temperature",
             "units": "K",
@@ -535,7 +535,7 @@
             "cell_measures": "area: areacella",
             "long_name": "Daily Maximum Near-Surface Air Temperature",
             "comment": "maximum near-surface (usually, 2 meter) air temperature (add cell_method attribute 'time: maximum')",
-            "dimensions": "longitude latitude time1 height2m",
+            "dimensions": "longitude latitude time height2m",
             "out_name": "tasmax",
             "type": "real",
             "positive": "",
