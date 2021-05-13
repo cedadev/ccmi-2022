@@ -125,7 +125,7 @@
             "units": "m", 
             "dimensions": "longitude latitude", 
             "out_name": "orog", 
-            "standard_name": "", 
+            "standard_name": "surface_altitude", 
             "type": "real"
         }, 
         "orog2d": {
@@ -133,7 +133,7 @@
             "units": "m", 
             "dimensions": "latitude", 
             "out_name": "orog", 
-            "standard_name": "", 
+            "standard_name": "surface_altitude", 
             "type": "real"
         }, 
         "p0": {

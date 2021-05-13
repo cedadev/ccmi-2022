@@ -33,7 +33,7 @@
             "variant_label"
         ],
         "version_metadata": {
-            "CV_collection_modified": "March 16, 2021, 15:49:57 UTC",
+            "CV_collection_modified": "May 12, 2021, 19:36:53 UTC",
             "CV_collection_version": "0.9.0",
             "author": "David Plummer <david.plummer@canada.ca>"
         },
@@ -43,12 +43,21 @@
         "institution_id": {
             "CCCma": "Canadian Centre for Climate Modelling and Analysis, Environment and Climate Change Canada, Victoria, BC V8P 5C2, Canada",
             "CNRM-CERFACS": "CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31057, France)",
+            "CSIRO-ARCCSS": "CSIRO (Commonwealth Scientific and Industrial Research Organisation, Aspendale, Victoria 3195, Australia), ARCCSS (Australian Research Council Centre of Excellence for Climate System Science)",
             "ETH-PMOD": "IAC ETH, Zurich and PMOD/WRC, Davos, Switzerland",
             "MESSy-Consortium": "The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany",
             "NCAR": "National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA",
+            "NCAS-CAMBRIDGE": "National Centre for Atmospheric Science, Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK",
             "NIES": "National Institute for Environmental Studies, Ibaraki 305-8506, Japan"
         },
         "source_id": {
+            "ACCESS-CM2-Chem": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "CSIRO-ARCCSS",
+                "source_id": "ACCESS-CM2-Chem",
+                "source": "ACCESS-CM2-Chem (2020): aerosol: UKCA-GLOMAP-mode atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km) atmosChem: UKCA CheST land: CABLE2.5 landIce: none ocean: ACCESS-OM2 (GFDL-MOM5, tripolar primarily 1deg; 360 x 300 longitude/latitude; 50 levels; top grid cell 0-10 m) ocnBgchem: none seaIce: CICE5.1.2 (same grid as ocean)"
+            },
             "CCSRNIES-MIROC32": {
                 "activity_participation": "CCMI2022",
                 "cohort": "Registered",
@@ -97,6 +106,13 @@
                 "institution_id": "ETH-PMOD",
                 "source_id": "SOCOL",
                 "source": "SOCOL: \natmos: SOCOL (T63; 47 levels; top level 0.01 Pa) \natmosChem: stratospheric and tropospheric mechanism \nocean: none"
+            },
+            "UKESM1-StratTrop": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "NCAS-CAMBRIDGE",
+                "source_id": "UKESM1-StratTrop",
+                "source": "UKESM1-StratTrop: \naerosol: UKCA-GLOMAP-mode \natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km) \natmosChem: UKCA StratTrop version 2.0 \nland: JULES-ES-1.0 \nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m) \nocnBgchem: MEDUSA2 \nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
             }
         },
         "source_type": {
@@ -186,10 +202,10 @@
                     "none"
                 ]
             },
-            "senD2-geo": {
+            "senD2-sai": {
                 "activity_id": "CCMI2022",
-                "experiment": "Baseline (SSP2-45) with geoengineering using specified stratospheric aerosol distribution and specified SSTs/sea-ice",
-                "experiment_id": "senD2-geo",
+                "experiment": "Baseline (SSP2-45) with a modified specified stratospheric aerosol distribution reflecting increased stratospheric aerosol amounts from SAI and with specified SSTs/sea-ice",
+                "experiment_id": "senD2-sai",
                 "parent_experiment_id": "refD2",
                 "sub_experiment_id": [
                     "none"
@@ -218,7 +234,7 @@
             "model-output"
         ],
         "tracking_id": [
-            "hdl:21.14100/.*"
+            ".*"
         ],
         "realization_index": [
             "^\\[\\{0,\\}[[:digit:]]\\{1,\\}\\]\\{0,\\}$"
