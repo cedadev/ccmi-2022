@@ -33,7 +33,7 @@
             "variant_label"
         ],
         "version_metadata": {
-            "CV_collection_modified": "May 12, 2021, 19:36:53 UTC",
+            "CV_collection_modified": "May 19, 2021, 21:05:29 UTC",
             "CV_collection_version": "0.9.0",
             "author": "David Plummer <david.plummer@canada.ca>"
         },
@@ -48,7 +48,8 @@
             "MESSy-Consortium": "The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany",
             "NCAR": "National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA",
             "NCAS-CAMBRIDGE": "National Centre for Atmospheric Science, Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK",
-            "NIES": "National Institute for Environmental Studies, Ibaraki 305-8506, Japan"
+            "NIES": "National Institute for Environmental Studies, Ibaraki 305-8506, Japan",
+            "NIWA": "National Institute of Water and Atmospheric Research, Wellington, New Zealand"
         },
         "source_id": {
             "ACCESS-CM2-Chem": {
@@ -99,6 +100,13 @@
                 "institution_id": "MESSy-Consortium",
                 "source_id": "EMAC-CCMI2",
                 "source": "EMAC-CCMI2 (2020): \natmos: ECHAM5.3.02 (modified, spectral T42; 128 x 64 longitude/latitude; 90 levels; top level 0.01 hPa) \natmosChem: MECCA 4.4.0.m1 \nland: same as Atmosphere\nlandIce: none \nocean: none \nocnBgchem: none \nseaIce: same as Atmosphere"
+            },
+            "NIWA-UKCA2": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "NIWA",
+                "source_id": "NIWA-UKCA2",
+                "source": "NIWA-UKCA2 (2021): \naerosol: CLASSIC \natmos: MetUM-HadGEM3-GA2 (N48; 96 x 73 longitude/latitude; 60 levels; top level 84 km) \natmosChem: NIWA-UKCA2 \nland: JULES \nlandIce: none \nocean: HadISST (REFD1) or MPI-ESM2-1-LR prescribed \nocnBgchem: none \nseaIce: (same as ocean)"
             },
             "SOCOL": {
                 "activity_participation": "CCMI2022",
