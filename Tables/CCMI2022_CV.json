@@ -33,7 +33,7 @@
             "variant_label"
         ],
         "version_metadata": {
-            "CV_collection_modified": "May 19, 2021, 21:05:29 UTC",
+            "CV_collection_modified": "August 02, 2021, 20:31:06 UTC",
             "CV_collection_version": "0.9.0",
             "author": "David Plummer <david.plummer@canada.ca>"
         },
@@ -46,6 +46,7 @@
             "CSIRO-ARCCSS": "CSIRO (Commonwealth Scientific and Industrial Research Organisation, Aspendale, Victoria 3195, Australia), ARCCSS (Australian Research Council Centre of Excellence for Climate System Science)",
             "ETH-PMOD": "IAC ETH, Zurich and PMOD/WRC, Davos, Switzerland",
             "MESSy-Consortium": "The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany",
+            "NASA-GSFC": "NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
             "NCAR": "National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA",
             "NCAS-CAMBRIDGE": "National Centre for Atmospheric Science, Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK",
             "NIES": "National Institute for Environmental Studies, Ibaraki 305-8506, Japan",
@@ -80,12 +81,12 @@
                 "source_id": "CMAM",
                 "source": "CMAM (2020): \natmos: CanAM3.1 (T47; 48x96 linear grid; 80 levels; top level 0.08 Pa) \natmosChem: stratospheric mechanism plus CH4-NOx tropospheric \nocean: none"
             },
-            "CNRM-MOCAGE-1-HR": {
+            "CNRM-MOCAGE": {
                 "activity_participation": "CCMI2022",
                 "cohort": "Registered",
                 "institution_id": "CNRM-CERFACS",
-                "source_id": "CNRM-MOCAGE-1-HR",
-                "source": "CNRM-MOCAGE-1-HR: a completer"
+                "source_id": "CNRM-MOCAGE",
+                "source": "CNRM-MOCAGE: a completer"
             },
             "EMAC-CCMI2-oce": {
                 "activity_participation": "CCMI2022",
@@ -100,6 +101,13 @@
                 "institution_id": "MESSy-Consortium",
                 "source_id": "EMAC-CCMI2",
                 "source": "EMAC-CCMI2 (2020): \natmos: ECHAM5.3.02 (modified, spectral T42; 128 x 64 longitude/latitude; 90 levels; top level 0.01 hPa) \natmosChem: MECCA 4.4.0.m1 \nland: same as Atmosphere\nlandIce: none \nocean: none \nocnBgchem: none \nseaIce: same as Atmosphere"
+            },
+            "GEOSCCM": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "NASA-GSFC",
+                "source_id": "GEOSCCM",
+                "source": "GEOSCCM (2021): \natmos: NASA GMAO GEOS5 (Icarus3.2, 1-deg Cube Sphere, L72)"
             },
             "NIWA-UKCA2": {
                 "activity_participation": "CCMI2022",
