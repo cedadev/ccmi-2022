@@ -33,7 +33,7 @@
             "variant_label"
         ],
         "version_metadata": {
-            "CV_collection_modified": "August 02, 2021, 20:31:06 UTC",
+            "CV_collection_modified": "August 03, 2021, 18:42:44 UTC",
             "CV_collection_version": "0.9.0",
             "author": "David Plummer <david.plummer@canada.ca>"
         },
@@ -86,7 +86,7 @@
                 "cohort": "Registered",
                 "institution_id": "CNRM-CERFACS",
                 "source_id": "CNRM-MOCAGE",
-                "source": "CNRM-MOCAGE: a completer"
+                "source": "CNRM-MOCAGE (2020): 2x2 degree grid, 60 levels, top level 10 Pa. \natmosChem: full tropospheric-stratospheric mechanism. \nBeing a CTM, MOCAGE needs meteorological forcing. It comes from CNRM-CM, being the same for the 4 refD2 realizations. For senD2-sai, 2 runs have been made using exactly the same metetorology as refD2  (senD2-sai_r1i1p1f1 and senD2-sai_r1i1p2f1). 2 other runs have been made using, after 2030, a cycling meteorology on 2020-2030, trying to reflect the stabilisation of climate around 2025 due to stratospheric aerosol intervention (senD2-sai_r1i1p1f2 and senD2-sai_r1i1p2f2). Contact : Beatrice.Josse@meteo.fr and Francoise.Cheroux@meteo.fr"
             },
             "EMAC-CCMI2-oce": {
                 "activity_participation": "CCMI2022",
