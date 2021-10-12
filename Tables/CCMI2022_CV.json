@@ -33,7 +33,7 @@
             "variant_label"
         ],
         "version_metadata": {
-            "CV_collection_modified": "August 03, 2021, 18:42:44 UTC",
+            "CV_collection_modified": "October 07, 2021, 22:04:46 UTC",
             "CV_collection_version": "0.9.0",
             "author": "David Plummer <david.plummer@canada.ca>"
         },
@@ -204,7 +204,12 @@
                 "activity_id": "CCMI2022",
                 "experiment": "Hindcast",
                 "experiment_id": "refD1",
-                "parent_experiment_id": "no parent",
+                "parent_activity_id": [
+                    "no parent"
+                ],
+                "parent_experiment_id": [
+                    "no parent"
+                ],
                 "sub_experiment_id": [
                     "none"
                 ]
@@ -213,7 +218,12 @@
                 "activity_id": "CCMI2022",
                 "experiment": "Baseline projection using CMIP6 SSP2-45 GHGs and precursor emissions with WMO-2018 ODSs",
                 "experiment_id": "refD2",
-                "parent_experiment_id": "no parent",
+                "parent_activity_id": [
+                    "no parent"
+                ],
+                "parent_experiment_id": [
+                    "no parent"
+                ],
                 "sub_experiment_id": [
                     "none"
                 ]
@@ -222,7 +232,12 @@
                 "activity_id": "CCMI2022",
                 "experiment": "Baseline (SSP2-45) with a modified specified stratospheric aerosol distribution reflecting increased stratospheric aerosol amounts from SAI and with specified SSTs/sea-ice",
                 "experiment_id": "senD2-sai",
-                "parent_experiment_id": "refD2",
+                "parent_activity_id": [
+                    "CCMI2022"
+                ],
+                "parent_experiment_id": [
+                    "refD2"
+                ],
                 "sub_experiment_id": [
                     "none"
                 ]
@@ -231,7 +246,14 @@
                 "activity_id": "CCMI2022",
                 "experiment": "Future projection using CMIP6 SSP1-26 GHGs and precursor emissions with WMO-2018 ODSs",
                 "experiment_id": "senD2-ssp126",
-                "parent_experiment_id": "no parent",
+                "parent_activity_id": [
+                    "no parent",
+                    "CCMI2022"
+                ],
+                "parent_experiment_id": [
+                    "no parent",
+                    "refD2"
+                ],
                 "sub_experiment_id": [
                     "none"
                 ]
@@ -239,8 +261,15 @@
             "senD2-ssp370": {
                 "activity_id": "CCMI2022",
                 "experiment": "Future projection using CMIP6 SSP3-70 GHGs and precursor emissions with WMO-2018 ODSs",
-                "parent_experiment_id": "no parent",
                 "experiment_id": "senD2-ssp370",
+                "parent_activity_id": [
+                    "no parent",
+                    "CCMI2022"
+                ],
+                "parent_experiment_id": [
+                    "no parent",
+                    "refD2"
+                ],
                 "sub_experiment_id": [
                     "none"
                 ]
