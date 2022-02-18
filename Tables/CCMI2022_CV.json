@@ -33,7 +33,7 @@
             "variant_label"
         ],
         "version_metadata": {
-            "CV_collection_modified": "October 07, 2021, 22:04:46 UTC",
+            "CV_collection_modified": "February 15, 2022, 20:42:17 UTC",
             "CV_collection_version": "0.9.0",
             "author": "David Plummer <david.plummer@canada.ca>"
         },
@@ -45,6 +45,7 @@
             "CNRM-CERFACS": "CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31057, France)",
             "CSIRO-ARCCSS": "CSIRO (Commonwealth Scientific and Industrial Research Organisation, Aspendale, Victoria 3195, Australia), ARCCSS (Australian Research Council Centre of Excellence for Climate System Science)",
             "ETH-PMOD": "IAC ETH, Zurich and PMOD/WRC, Davos, Switzerland",
+            "IPSL": "Institut Pierre Simon Laplace, Paris 75252, France",
             "MESSy-Consortium": "The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany",
             "NASA-GSFC": "NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
             "NCAR": "National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA",
@@ -108,6 +109,13 @@
                 "institution_id": "NASA-GSFC",
                 "source_id": "GEOSCCM",
                 "source": "GEOSCCM (2021): \natmos: NASA GMAO GEOS5 (Icarus3.2, 1-deg Cube Sphere, L72)"
+            },
+            "IPSL-CM6A-ATM-LR-REPROBUS": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "IPSL",
+                "source_id": "IPSL-CM6A-ATM-LR-REPROBUS",
+                "source": "IPSL-CM6A-ATM-LR-REPROBUS (2021): \naerosol: REPROBUS v6 \natmos: LMDZ (NPv6; 144 x 143 longitude/latitude; 79 levels; top level 80000 m)"
             },
             "NIWA-UKCA2": {
                 "activity_participation": "CCMI2022",
