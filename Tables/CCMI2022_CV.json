@@ -33,7 +33,7 @@
             "variant_label"
         ],
         "version_metadata": {
-            "CV_collection_modified": "February 15, 2022, 20:42:17 UTC",
+            "CV_collection_modified": "June 07, 2023, 14:28:27 UTC",
             "CV_collection_version": "0.9.0",
             "author": "David Plummer <david.plummer@canada.ca>"
         },
@@ -47,6 +47,7 @@
             "ETH-PMOD": "IAC ETH, Zurich and PMOD/WRC, Davos, Switzerland",
             "IPSL": "Institut Pierre Simon Laplace, Paris 75252, France",
             "MESSy-Consortium": "The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany",
+            "MIROC": "JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa 236-0001, Japan), AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba 277-8564, Japan), NIES (National Institute for Environmental Studies, Ibaraki 305-8506, Japan), and R-CCS (RIKEN Center for Computational Science, Hyogo 650-0047, Japan)",
             "NASA-GSFC": "NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
             "NCAR": "National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA",
             "NCAS-CAMBRIDGE": "National Centre for Atmospheric Science, Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK",
@@ -116,6 +117,13 @@
                 "institution_id": "IPSL",
                 "source_id": "IPSL-CM6A-ATM-LR-REPROBUS",
                 "source": "IPSL-CM6A-ATM-LR-REPROBUS (2021): \naerosol: REPROBUS v6 \natmos: LMDZ (NPv6; 144 x 143 longitude/latitude; 79 levels; top level 80000 m)"
+            },
+            "MIROC-ES2H": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "MIROC",
+                "source_id": "MIROC-ES2H",
+                "source": "MIROC-ES2H (2018): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: CHASER4.0 (T42; 128 x 64 longitude/latitude; 81 levels; top level 0.004 hPa)\nland: MATSIRO6.0+VISIT-e ver.1.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: OECO ver.2.0; NPZD-type with C/N/P/Fe/O cycles\nseaIce: COCO4.9"
             },
             "NIWA-UKCA2": {
                 "activity_participation": "CCMI2022",
